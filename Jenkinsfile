@@ -21,6 +21,7 @@ pipeline {
         }
          stage('release') {
             steps {
+                echo "this is release stage"
                 nexusArtifactUploader artifacts: [[artifactId: 'WebAppCal', classifier: '', file: 'target/WebAppCal-0.0.2.war', type: 'war']], credentialsId: 'nexus', groupId: 'com.web.cal', nexusUrl: '3.110.67.107:8081/nexus/', nexusVersion: 'nexus2', protocol: 'http', repository: 'releases', version: '0.0.2'
             }
         }

@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('clone') {
             steps {
+                echo "this is checkout stage"
                 checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/muqeeth23/JavaWebCalculator.git']]])
             }
         }

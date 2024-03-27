@@ -6,7 +6,7 @@ COPY pom.xml /app
 RUN mvn -f /app/pom.xml clean package
 
 
-
+#this is to trigger jenkins
 #Deploying into tomcat
 FROM tomcat:9.0
 RUN mv webapps webapps2

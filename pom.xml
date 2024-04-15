@@ -70,8 +70,8 @@
     </build>
 <distributionManagement>
   <repository>
-    <id>javawebapp</id>
-        <url>http://18.133.184.237:8081/nexus/content/repositories/javawebapp</url>
+    <id>webappcal</id>
+        <url>http://54.86.197.122:8081/nexus/content/repositories/webappcal</url>
   </repository>
 </distributionManagement>
 </project>

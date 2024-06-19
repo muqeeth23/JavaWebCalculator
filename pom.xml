@@ -69,9 +69,9 @@
         </plugins>
     </build>
 <distributionManagement>
-  <repository>
-    <id>webappcal</id>
-        <url>http://54.86.197.122:8081/nexus/content/repositories/webappcal</url>
-  </repository>
+  <snapshotRepository>
+    <id>rds-java-app-repo</id>
+    <url>http://54.172.119.87:8081/nexus/content/repositories/rds-java-app-repo</url>
+  </snapshotRepository>
 </distributionManagement>
 </project>

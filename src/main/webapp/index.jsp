@@ -29,7 +29,7 @@
 
  
 </div>
-<input type="submit" value="submit" />
+<input type="submit" value="Enter" />
 </form>
 </body>
 </html>

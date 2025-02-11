@@ -1,0 +1,11 @@
+some random datqa
+Git comes with built-in GUI tools (git-gui, gitk), but there are several third-party tools for users looking for a platform-specific experience.
+
+View GUI Clients →
+
+Logos
+Various Git logos in PNG (bitmap) and EPS (vector) formats are available for use in online and print projects.
+
+View Logos →
+
+Git via Git

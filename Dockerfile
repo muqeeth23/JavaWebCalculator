@@ -8,9 +8,6 @@ RUN mvn -f /app/pom.xml clean package
 
 #this is to trigger jenkins
 #Deploying into tomcat
-FROM tomcat:9.0
-RUN mv webapps webapps2
-RUN cp -r webapps.dist/ webapps
-
-COPY --from=warbuild /app/target/WebAppCal-0.0.4.war /usr/local/tomcat/webapps/webappcal.war
+FROM tomcat:jre8-alpine
+COPY --from=warbuild /app/target/WebAppCal-0.0.5.war /usr/local/tomcat/webapps/webappcal.war
 
